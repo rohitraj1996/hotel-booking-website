@@ -1,0 +1,17 @@
+#content-hotel-detail {
+    background-color: rgb(132,136,139);
+    width: 50%;
+    height: 20%;
+    margin: 2% auto;
+}
+
+#content-preview-order--customer-detail {
+    margin: 2%;
+}
+
+#content-hotel-detail--payment-details {
+    margin: 2%;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 1% 2%;
+}

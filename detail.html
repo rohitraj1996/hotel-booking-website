@@ -13,54 +13,57 @@
 <div>
     <header>
         <div>
-            <a href="index.html"><img class="company-logo" alt="logo" height="200px" src="assests/images/logo.png" width="150px"></a>
+            <a href="index.html"><img alt="logo" class="company-logo" height="200px" src="assests/images/logo.png"
+                                      width="150px"></a>
             <a href="login.html">Login</a>
         </div>
     </header>
-    <div>
+    <div id="content">
         <div>
-            <img class="hotel-img-500" alt="Radisson Blu Hotel"
+            <img alt="Radisson Blu Hotel" class="hotel-img-500"
                  src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
         </div>
         <div>
             <form action="./payment.html">
                 <div>
-                <label for="adults">Adults: </label>
-                <input id="adults" type="number" name="adults" value="1" min="1">
+                    <label for="adults">Adults: </label>
+                    <input id="adults" min="1" name="adults" type="number" value="1">
                 </div>
                 <div>
                     <label for="name">Name: </label>
-                    <input id="name" type="text" name="name" required>
+                    <input id="name" name="name" required type="text">
                 </div>
                 <div>
                     <label for="from-date">From Date: </label>
-                    <input id="from-date" type="date" name="fromDate" required>
+                    <input id="from-date" name="fromDate" required type="date">
                 </div>
                 <div>
                     <label for="to-date">To Date: </label>
-                    <input id="to-date" type="date" name="to-date" required>
+                    <input id="to-date" name="to-date" required type="date">
                 </div>
                 <div>
                     <label for="total">Total: </label>
-                    <input id="total" type="text" name="total" disabled>
+                    <input disabled id="total" name="total" type="text">
                 </div>
                 <input type="submit" value="Book Now">
             </form>
-            <h2>Radisson Blu Hotel</h2>
-            <p>RATING</p>
-            <p>5 Star</p>
-            <p>AMENITIES</p>
-            <ul>
-                <li>Room service</li>
-                <li>Restaurant</li>
-                <li>Business center</li>
-                <li>Fitness center</li>
-                <li>Pool</li>
-            </ul>
-            <h5>DESCRIPTION</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad blanditiis doloremque ea eius eos
-                exercitationem minima mollitia, optio, possimus quaerat quasi tempora voluptatem voluptatum. Aperiam
-                eligendi illum iste nemo odit?</p>
+            <div id="content-description">
+                <h2>Radisson Blu Hotel</h2>
+                <p>RATING</p>
+                <p>5 Star</p>
+                <p>AMENITIES</p>
+                <ul>
+                    <li>Room service</li>
+                    <li>Restaurant</li>
+                    <li>Business center</li>
+                    <li>Fitness center</li>
+                    <li>Pool</li>
+                </ul>
+                <h5>DESCRIPTION</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad blanditiis doloremque ea eius eos
+                    exercitationem minima mollitia, optio, possimus quaerat quasi tempora voluptatem voluptatum. Aperiam
+                    eligendi illum iste nemo odit?</p>
+            </div>
         </div>
 
     </div>
