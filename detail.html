@@ -12,8 +12,8 @@
 <div>
     <header>
         <div>
-            <img alt="logo" height="200px" src="assests/images/logo.png" width="150px">
-            <a href="login.html" target="_blank">Login</a>
+            <a href="index.html"><img alt="logo" height="200px" src="assests/images/logo.png" width="150px"></a>
+            <a href="login.html">Login</a>
         </div>
     </header>
     <div>
@@ -22,7 +22,29 @@
                  src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
         </div>
         <div>
-            <a href="payment.html">Book Now</a>
+            <form action="./payment.html">
+                <div>
+                <label for="adults">Adults: </label>
+                <input id="adults" type="number" name="adults" value="1" min="1">
+                </div>
+                <div>
+                    <label for="name">Name: </label>
+                    <input id="name" type="text" name="name" required>
+                </div>
+                <div>
+                    <label for="from-date">From Date: </label>
+                    <input id="from-date" type="date" name="fromDate" required>
+                </div>
+                <div>
+                    <label for="to-date">To Date: </label>
+                    <input id="to-date" type="date" name="to-date" required>
+                </div>
+                <div>
+                    <label for="total">Total: </label>
+                    <input id="total" type="text" name="total" disabled>
+                </div>
+                <input type="submit" value="Book Now">
+            </form>
             <h2>Radisson Blu Hotel</h2>
             <p>RATING</p>
             <p>5 Star</p>
@@ -42,7 +64,7 @@
 
     </div>
     <footer>
-        <a href="contact.html" target="_blank">Contact Us</a>
+        <a href="contact.html">Contact Us</a>
         <div class="footer-social-media">
             <a href="https://www.facebook.com" target="_blank"><img alt="Facebook"
                                                                     src="assests/images/facebook.png"></a>
